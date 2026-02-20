@@ -1,6 +1,5 @@
 package helpers
 
-// Sa swaps first two elements of a.
 func Sa(a *Stack) {
 	if a.Len() < 2 {
 		return

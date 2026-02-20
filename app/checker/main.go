@@ -9,8 +9,6 @@ import (
 	"pushswap/helpers"
 )
 
-// The main function initializes the stacks based on the command-line arguments, reads operations from standard input, and executes them on the stacks. After processing all operations, it checks if stack a is sorted and stack b is empty to determine if the result is "OK" or "KO". If any invalid instruction is encountered during execution, it prints "Error" to standard error and exits with a non-zero status code.
-
 func main() {
 	if len(os.Args) < 2 {
 		return
